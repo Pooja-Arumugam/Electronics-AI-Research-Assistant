@@ -25,17 +25,6 @@ Reading and understanding technical research papers, especially in fast-evolving
 
 ---
 
-## Impact and Use Cases
-
-This project makes Electronics and AI research **more accessible and actionable**:
-
-- Researchers can get instant answers to specific technical questions, speeding up literature reviews.
-- Engineers and developers gain a quick-reference assistant to validate concepts or explore new tech without exhaustive reading.
-- Students and learners get an AI-powered tutor for complex subjects by querying trusted scientific sources.
-- The underlying RAG architecture serves as a blueprint for building **domain-specific AI assistants** in other fields.
-
----
-
 ##  How It Works
 
 1. **PDF Loading**: Research papers stored in the `research_papers` folder are loaded using `PyPDFDirectoryLoader`.
@@ -102,6 +91,15 @@ project/
 └── README.md                  # This documentation file
 
 ```
+---
+## Impact and Use Cases
+
+This project makes Electronics and AI research **more accessible and actionable**:
+
+- Researchers can get instant answers to specific technical questions, speeding up literature reviews.
+- Engineers and developers gain a quick-reference assistant to validate concepts or explore new tech without exhaustive reading.
+- Students and learners get an AI-powered tutor for complex subjects by querying trusted scientific sources.
+- The underlying RAG architecture serves as a blueprint for building **domain-specific AI assistants** in other fields.
 ---
 
 ## Acknowledgments
