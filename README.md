@@ -1,10 +1,10 @@
-# 🤖 Electronics & AI Research Assistant
+# Electronics & AI Research Assistant
 
 An intelligent Streamlit app designed to **answer technical questions based on research papers** in the fields of Electronics and Artificial Intelligence. Powered by **Retrieval-Augmented Generation (RAG)**, this project combines advanced language models, semantic search, and document embeddings to deliver precise, context-aware answers grounded in real scientific literature.
 
 ---
 
-## 🎯 Project Aim
+## Project Aim
 
 The goal of this project is to **bridge the gap between dense academic research papers and accessible knowledge** by enabling users to interactively query complex Electronics and AI research documents. Inspired by the paper *“Overview of Emerging Electronics Technologies for AI / LLM Ideas”*, the app aims to:
 
@@ -14,7 +14,7 @@ The goal of this project is to **bridge the gap between dense academic research 
 
 ---
 
-## 🛠 Why I Built This
+## Why I Built This
 
 Reading and understanding technical research papers, especially in fast-evolving fields like Electronics and AI, can be overwhelming and time-consuming. I built this assistant to:
 
@@ -25,7 +25,7 @@ Reading and understanding technical research papers, especially in fast-evolving
 
 ---
 
-## 🌟 Impact and Use Cases
+## Impact and Use Cases
 
 This project makes Electronics and AI research **more accessible and actionable**:
 
@@ -36,7 +36,7 @@ This project makes Electronics and AI research **more accessible and actionable*
 
 ---
 
-## 💡 How It Works
+##  How It Works
 
 1. **PDF Loading**: Research papers stored in the `research_papers` folder are loaded using `PyPDFDirectoryLoader`.
 2. **Chunking**: Documents are split into overlapping text chunks (e.g., 1000 characters with 200 overlap) by `RecursiveCharacterTextSplitter` to improve retrieval precision.
@@ -45,11 +45,11 @@ This project makes Electronics and AI research **more accessible and actionable*
 5. **Retrieval & Generation**: Upon receiving a question, the system retrieves relevant chunks and generates answers using Groq’s Llama 3.1 model via LangChain’s `create_retrieval_chain` and `ChatGroq`.
 6. **Prompting**: `ChatPromptTemplate` structures the query with context for accurate, source-grounded answers.
 
-> 🕐 **Note:** Vector embeddings are created once per session, ensuring subsequent queries are answered instantly with minimal latency.
+>  **Note:** Vector embeddings are created once per session, ensuring subsequent queries are answered instantly with minimal latency.
 
 ---
 
-## 🔧 Technical Components
+##  Technical Components
 
 | Module/Library | Role |
 | -------------- | ---- |
@@ -64,7 +64,7 @@ This project makes Electronics and AI research **more accessible and actionable*
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
 1. **Clone the repository**:
    ```bash
@@ -105,7 +105,7 @@ project/
 ---
 
 ## Acknowledgments
- - Special thanks to the authors of “Overview of Emerging Electronics Technologies for AI / LLM Ideas” for their invaluable research and insights that made this project possible.
+ - Special thanks to the authors of “Overview of Emerging Electronics Technologies for AI and LLM Ideas” for their invaluable research and insights that made this project possible.
  - Thanks to the teams behind LangChain, Groq, OpenAI, and Streamlit for the incredible tools and APIs.
 
 ---
