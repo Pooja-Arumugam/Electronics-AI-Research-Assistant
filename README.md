@@ -1,4 +1,4 @@
-# Electronics & AI Research Assistant
+# ElectroQuery: RAG-Based Research Assistant
 
 An intelligent Streamlit app designed to **answer technical questions based on research papers** in the fields of Electronics and Artificial Intelligence. Powered by **Retrieval-Augmented Generation (RAG)**, this project combines advanced language models, semantic search, and document embeddings to deliver precise, context-aware answers grounded in real scientific literature.
 
